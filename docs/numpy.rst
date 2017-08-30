@@ -1,8 +1,12 @@
+============================================
+Scientific Hypothesis (for NumPy and Pandas)
+============================================
+
 .. _hypothesis-numpy:
 
-=================================
-Scientific Hypothesis (for NumPy)
-=================================
+-----
+numpy
+-----
 
 Hypothesis offers a number of strategies for `NumPy <http://www.numpy.org/>`_ testing,
 available in the :mod:`hypothesis[numpy]` :doc:`extra </extras>`.
@@ -15,4 +19,12 @@ shapes and generate all kinds of fixed-size or compound dtypes.
 
 
 .. automodule:: hypothesis.extra.numpy
+   :members:
+
+
+------
+pandas
+------
+
+.. automodule:: hypothesis.extra.pandas
    :members:

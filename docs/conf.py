@@ -71,7 +71,7 @@ intersphinx_mapping = {
     'numpy': ('http://docs.scipy.org/doc/numpy/', None),
 }
 
-autodoc_mock_imports = ['numpy']
+autodoc_mock_imports = ['numpy', 'pandas']
 
 doctest_global_setup = '''
 # Some standard imports
